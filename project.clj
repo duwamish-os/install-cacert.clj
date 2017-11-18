@@ -10,6 +10,6 @@
 
 :user {:repository [["mvncentral" "http://central.maven.org/maven2/"]]}
 
-  :main ^:skip-aot install-cacert.core
+  :main ^:skip-aot install-cacert.cacert
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
